@@ -83,10 +83,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R             &kp T                                             &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D         &lt 6 F           &kp G                              &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &lt 4 COLON           &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 INT_HENKAN  &lt 2 SPACE  &lt 3 INT_MUHENKAN    &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&mt ESCAPE Q      &kp W         &kp E         &kp R                &kp T                                                    &kp Y      &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S         &kp D         &lt 6 F              &kp G                                     &kp MINUS      &kp H      &kp J  &kp K      &kp L    &kp SQT
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                &kp B        &lt 4 COLON                  &kp SEMICOLON  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 LANG_HIRAGANA  &lt 2 SPACE  &lt 3 LANG_ZENKAKUHANKAKU    &kp BACKSPACE  &kp ENTER                             &kp DEL
             >;
 
             sensor-bindings =
@@ -96,10 +96,10 @@
 
         layer_1 {
             bindings = <
-&kp ESCAPE            &trans        &trans        &kp F7     &kp F8                                                 &kp LC(PAGE_UP)  &kp HOME  &kp LC(PAGE_DOWN)  &trans  &kp PRINTSCREEN
-&kp LC(A)             &kp LC(S)     &kp F4        &kp F2     &Excel_paste_form                 &Excel_paste_fomula  &mkp LCLK        &kp UP    &mkp RCLK          &trans  &trans
-&mt LEFT_SHIFT LC(Z)  &kp LC(X)     &kp LC(C)     &kp LC(V)  &Excel_paste_value  &kp LA(F4)    &trans               &kp LEFT         &kp DOWN  &kp RIGHT          &trans  &trans
-&kp LCTRL             &kp LEFT_ALT  &kp LEFT_WIN  &trans     &kp TAB             &trans        &kp BACKSPACE        &kp ENTER                                             &kp LC(F4)
+&kp ESCAPE            &trans        &trans        &kp F7     &kp F8                                                 &trans     &kp LC(PAGE_DOWN)  &kp HOME  &kp LC(PAGE_DOWN)  &kp PRINTSCREEN
+&kp LC(A)             &kp LC(S)     &kp F4        &kp F2     &Excel_paste_form                 &Excel_paste_fomula  &trans     &mkp LCLK          &kp UP    &mkp RCLK          &trans
+&mt LEFT_SHIFT LC(Z)  &kp LC(X)     &kp LC(C)     &kp LC(V)  &Excel_paste_value  &kp LA(F4)    &trans               &trans     &kp LEFT           &kp DOWN  &kp RIGHT          &trans
+&kp LCTRL             &kp LEFT_ALT  &kp LEFT_WIN  &trans     &kp TAB             &trans        &kp BACKSPACE        &kp ENTER                                                  &kp LC(F4)
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -107,10 +107,10 @@
 
         layer_2 {
             bindings = <
-&kp AT_SIGN      &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                                      &kp PLUS         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK
-&kp EXCLAMATION  &kp QUESTION       &kp PERCENT       &kp LESS_THAN         &kp GREATER_THAN                            &kp COMMA      &kp MINUS        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SLASH
-&kp HASH         &kp AMPERSAND      &kp NUBS          &kp DOLLAR            &kp LEFT_BRACKET       &kp RIGHT_BRACKET    &kp PERIOD     &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans
-&trans           &trans             &trans            &trans                &trans                 &trans               &kp BACKSPACE  &kp ENTER                                                           &kp EQUAL
+&kp AT           &kp DQT       &kp SINGLE_QUOTE  &kp LPAR       &kp RPAR                                     &kp KP_PLUS   &kp N7  &kp N8  &kp N9  &kp STAR
+&kp EXCLAMATION  &kp QUESTION  &kp PERCENT       &kp LESS_THAN  &kp GREATER_THAN              &kp COMMA      &kp KP_MINUS  &kp N4  &kp N5  &kp N6  &kp FSLH
+&kp HASH         &kp AMPS      &kp BACKSLASH     &kp DLLR       &kp LBKT          &kp RBKT    &kp PERIOD     &kp N0        &kp N1  &kp N2  &kp N3  &trans
+&trans           &trans        &trans            &trans         &trans            &trans      &kp BACKSPACE  &kp ENTER                             &kp KP_EQUAL
             >;
 
             sensor-bindings = <&scroll_up_down>;
