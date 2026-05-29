@@ -37,9 +37,9 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: LANG HIRAGANA, h: '1'}
+  - {t: LANG2, h: '1'}
   - {t: SPACE, h: '2'}
-  - {t: LANG ZENKAKUHANKAKU, h: '3'}
+  - {t: LANG1, h: '3'}
   - BACKSPACE
   - ENTER
   - DEL
@@ -50,7 +50,7 @@ layers:
   - F7
   - F8
   - {t: ▽, type: trans}
-  - Ctl+PAGE DOWN
+  - Ctl+PAGE UP
   - HOME
   - Ctl+PAGE DOWN
   - PRINTSCREEN
@@ -87,16 +87,16 @@ layers:
   - ENTER
   - Ctl+F4
   '2':
-  - '@'
+  - '['
   - '"'
   - ''''
-  - (
-  - )
+  - Sft+9
+  - Sft+0
   - KP PLUS
   - '7'
   - '8'
   - '9'
-  - '*'
+  - '"'
   - '!'
   - '?'
   - '%'
@@ -109,11 +109,11 @@ layers:
   - '6'
   - /
   - '#'
-  - '&'
-  - \
+  - Sft+7
+  - Sft+\
   - $
   - '['
-  - ']'
+  - \
   - .
   - '0'
   - '1'
@@ -128,7 +128,7 @@ layers:
   - {t: ▽, type: trans}
   - BACKSPACE
   - ENTER
-  - KP EQUAL
+  - '-'
   '3':
   - '&Press_pp'
   - {t: ▽, type: trans}
