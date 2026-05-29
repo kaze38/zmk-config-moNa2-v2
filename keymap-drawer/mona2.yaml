@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: mona2}
 layers:
   default:
-  - Q
+  - {t: Q, h: ESCAPE}
   - W
   - E
   - R
@@ -37,11 +37,11 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: INT HENKAN, h: '1'}
+  - {t: LANG HIRAGANA, h: '1'}
   - {t: SPACE, h: '2'}
-  - {t: INT MUHENKAN, h: '3'}
+  - {t: LANG ZENKAKUHANKAKU, h: '3'}
   - BACKSPACE
-  - {t: ENTER, h: '1'}
+  - ENTER
   - DEL
   '1':
   - ESCAPE
@@ -49,10 +49,10 @@ layers:
   - {t: ▽, type: trans}
   - F7
   - F8
-  - Ctl+PAGE UP
+  - {t: ▽, type: trans}
+  - Ctl+PAGE DOWN
   - HOME
   - Ctl+PAGE DOWN
-  - {t: ▽, type: trans}
   - PRINTSCREEN
   - Ctl+A
   - Ctl+S
@@ -60,10 +60,10 @@ layers:
   - F2
   - '&Excel_paste_form'
   - '&Excel_paste_fomula'
+  - {t: ▽, type: trans}
   - '&mkp LCLK'
   - UP
   - '&mkp RCLK'
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Ctl+Z, h: LEFT SHIFT}
   - Ctl+X
@@ -72,10 +72,10 @@ layers:
   - '&Excel_paste_value'
   - Alt+F4
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - RIGHT
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LCTRL
   - LEFT ALT
@@ -92,10 +92,10 @@ layers:
   - ''''
   - (
   - )
-  - +
-  - KP 7
-  - KP 8
-  - KP 9
+  - KP PLUS
+  - '7'
+  - '8'
+  - '9'
   - '*'
   - '!'
   - '?'
@@ -103,22 +103,22 @@ layers:
   - <
   - '>'
   - ','
-  - '-'
-  - KP 4
-  - KP 5
-  - KP 6
+  - KP MINUS
+  - '4'
+  - '5'
+  - '6'
   - /
   - '#'
   - '&'
-  - NUBS
+  - \
   - $
   - '['
   - ']'
   - .
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
+  - '0'
+  - '1'
+  - '2'
+  - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -128,7 +128,7 @@ layers:
   - {t: ▽, type: trans}
   - BACKSPACE
   - ENTER
-  - '='
+  - KP EQUAL
   '3':
   - '&Press_pp'
   - {t: ▽, type: trans}
