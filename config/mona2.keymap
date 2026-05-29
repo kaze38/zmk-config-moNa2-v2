@@ -97,7 +97,7 @@
         layer_1 {
             bindings = <
 &kp ESCAPE            &trans        &trans        &kp F7     &kp F8                                                 &trans     &kp LC(PAGE_UP)  &kp HOME  &kp LC(PAGE_DOWN)  &kp PRINTSCREEN
-&kp LC(A)             &kp LC(S)     &kp F4        &kp F2     &Excel_paste_form                 &Excel_paste_fomula  &trans     &mkp LCLK        &kp UP    &mkp RCLK          &trans
+&kp LC(A)             &kp LC(S)     &kp F4        &kp F2     &Excel_paste_form                 &Excel_paste_fomula  &trans     &mkp LCLK        &kp UP    &mkp RCLK          &kp TAB
 &mt LEFT_SHIFT LC(Z)  &kp LC(X)     &kp LC(C)     &kp LC(V)  &Excel_paste_value  &kp LA(F4)    &trans               &trans     &kp LEFT         &kp DOWN  &kp RIGHT          &trans
 &kp LCTRL             &kp LEFT_ALT  &kp LEFT_WIN  &trans     &kp TAB             &trans        &kp BACKSPACE        &kp ENTER                                                &kp LC(F4)
             >;
