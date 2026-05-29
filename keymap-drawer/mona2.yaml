@@ -88,7 +88,7 @@ layers:
   - Ctl+F4
   '2':
   - '['
-  - '"'
+  - '@'
   - Sft+7
   - Sft+8
   - Sft+9
@@ -109,7 +109,7 @@ layers:
   - '6'
   - /
   - '#'
-  - INTERNATIONAL 1
+  - Sft+INTERNATIONAL 1
   - {t: ▽, type: trans}
   - $
   - ']'
