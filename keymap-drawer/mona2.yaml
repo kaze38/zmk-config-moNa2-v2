@@ -64,7 +64,7 @@ layers:
   - '&mkp LCLK'
   - UP
   - '&mkp RCLK'
-  - {t: ▽, type: trans}
+  - TAB
   - {t: Ctl+Z, h: LEFT SHIFT}
   - Ctl+X
   - Ctl+C
