@@ -45,11 +45,11 @@ layers:
   - DEL
   '1':
   - ESCAPE
-  - {t: ▽, type: trans}
+  - Sft+LEFT WIN
   - {t: ▽, type: trans}
   - F7
   - F8
-  - {t: ▽, type: trans}
+  - F12
   - Ctl+PAGE UP
   - HOME
   - Ctl+PAGE DOWN
@@ -70,7 +70,7 @@ layers:
   - Ctl+C
   - Ctl+V
   - '&Excel_paste_value'
-  - Ctl+F4
+  - Ctl+F
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
@@ -81,8 +81,8 @@ layers:
   - LEFT ALT
   - LEFT WIN
   - {type: held}
-  - TAB
-  - {t: ▽, type: trans}
+  - LEFT ALT
+  - Gui+V
   - BACKSPACE
   - ENTER
   - Alt+F4
@@ -139,7 +139,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Ctl+ESCAPE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
