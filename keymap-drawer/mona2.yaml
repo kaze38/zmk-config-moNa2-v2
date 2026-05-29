@@ -37,9 +37,9 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: LANG2, h: '1'}
+  - {t: LANG1, h: '1'}
   - {t: SPACE, h: '2'}
-  - {t: LANG1, h: '3'}
+  - {t: LANG2, h: '3'}
   - BACKSPACE
   - ENTER
   - DEL
@@ -109,8 +109,8 @@ layers:
   - '6'
   - /
   - '#'
-  - Sft+7
-  - Sft+\
+  - INTERNATIONAL 1
+  - {t: ▽, type: trans}
   - $
   - ']'
   - \
@@ -128,7 +128,7 @@ layers:
   - {t: ▽, type: trans}
   - BACKSPACE
   - ENTER
-  - '-'
+  - _
   '3':
   - '&Press_pp'
   - {t: ▽, type: trans}
