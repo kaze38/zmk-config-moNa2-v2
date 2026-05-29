@@ -110,7 +110,7 @@ layers:
   - /
   - '#'
   - Sft+INTERNATIONAL 1
-  - {t: ▽, type: trans}
+  - INTERNATIONAL 1
   - $
   - ']'
   - \
