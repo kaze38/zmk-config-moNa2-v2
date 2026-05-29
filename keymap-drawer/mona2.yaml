@@ -70,7 +70,7 @@ layers:
   - Ctl+C
   - Ctl+V
   - '&Excel_paste_value'
-  - Alt+F4
+  - Ctl+F4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - BACKSPACE
   - ENTER
-  - Ctl+F4
+  - Alt+F4
   '2':
   - '['
   - '@'
